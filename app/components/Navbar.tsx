@@ -49,7 +49,11 @@ export default function Navbar() {
           <a href="#planes" className="hover:text-lime transition-colors">
             {t("nav_prices")}
           </a>
-          <a href="#" className="btn-official px-6 py-3 rounded-full">
+          <a
+            href="/1stepfx.apk"
+            className="btn-official px-6 py-3 rounded-full"
+            download
+          >
             {t("nav_download")}
           </a>
 
